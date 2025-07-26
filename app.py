@@ -49,7 +49,7 @@ def aboutpage():
 
 @app.route('/chatbot')
 def chatbot():
-    return render_template('chatbot3.html')
+    return render_template('chatbot.html')
 
 # Upload the images
 @app.route('/upload', methods=['POST'])
