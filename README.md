@@ -25,33 +25,42 @@ This app predicts the type of food in an uploaded image using a YOLO object dete
 ## 🚀 Setup Instructions
 
 ### 1. Clone the repository
-```bash
-git clone https://github.com/L3tzG0/food_classification_app.git
-cd food_classification_app
+    git clone https://github.com/L3tzG0/food_classification_app.git
+    cd food_classification_app
+
 
 ### 2. Install dependencies
-```bash
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
 ### 3. Configure environment variables
-Create a .env file with your Gemini API key:
-GEMINI_API_KEY=your_api_key_here
+    Create a .env file with your Gemini or OPENAI API key:
+    API_KEY=your_api_key_here
 
 ### 4. Run the app
-```bash
-python app.py
+    python app.py
 
 ## 📁 File Structure
-├── app.py
-├── static/
-│   └── uploads/
-├── templates/
-│   └── index.html
-│   └── estimate.html
-│   └── chatbot.html
-│   └── aboutpage.html
-│   └── estimatedescription.html
-│   └── estimateshowcalorie.html
-├── requirements.txt
-├── .env (not tracked)
-└── README.md
+    ├── app.py
+    ├── static/
+    │   └── uploads/
+    ├── templates/
+    │   └── index.html
+    │   └── estimate.html
+    │   └── chatbot.html
+    │   └── aboutpage.html
+    │   └── estimatedescription.html
+    │   └── estimateshowcalorie.html
+    ├── requirements.txt
+    ├── .env (not tracked)
+    └── README.md
+
+## 📝 Notes
+- Ensure model files and data paths are correctly placed
+- Uses webcam (can be swapped for pre-recorded footage)
+- Requires at least one identity with embeddings to function properly
+- Project was made using python 3.10.11
+
+## 👥 Credits
+This project was developed by a group of four students as part of a collaborative effort.
+Special thanks to all team members who contributed across model development, frontend design, and logic integration.
+Flask integration, backend architecture, and CNN model creation and training were led by Dhruv.
