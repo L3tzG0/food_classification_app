@@ -1,0 +1,6 @@
+This folder consists of other variations of the app
+
+Both versions here (app2.py & app3.py) uses the GPT3.5 model
+app2.py uses a CNN model, app3.py uses the same YOLO model as app.py
+
+To use this, replace app.py with either app2.py or app3.py, and chatbot.html with chatbot2.html

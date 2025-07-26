@@ -1,0 +1,4 @@
+Due to limitations, this project is limited to 10 food types
+
+Classes/food types:
+baklava, beignets, chocolate_cake, churros, cup_cakes, donuts, ice_cream, macarons, red_velvet_cake, waffles
