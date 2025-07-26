@@ -1,0 +1,8 @@
+flask
+werkzeug
+ultralytics
+google-generativeai
+python-dotenv
+openai
+opencv-python
+numpy
