@@ -41,8 +41,12 @@ This app predicts the type of food in an uploaded image using a YOLO object dete
 
 ## 📁 File Structure
     ├── app.py
+    ├── CNN_Model.h5
+    ├── classes.npy
+    ├── food_detection_model.pt
     ├── static/
     │   └── uploads/
+    │   └── images/
     ├── templates/
     │   └── index.html
     │   └── estimate.html
@@ -56,8 +60,7 @@ This app predicts the type of food in an uploaded image using a YOLO object dete
 
 ## 📝 Notes
 - Ensure model files and data paths are correctly placed
-- Uses webcam (can be swapped for pre-recorded footage)
-- Requires at least one identity with embeddings to function properly
+- Create an empty "uploads" folder inside the static folder to store images/uploads by user
 - Project was made using python 3.10.11
 
 ## 👥 Credits
