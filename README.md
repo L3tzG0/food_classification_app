@@ -40,3 +40,18 @@ GEMINI_API_KEY=your_api_key_here
 ### 4. Run the app
 ```bash
 python app.py
+
+## 📁 File Structure
+├── app.py
+├── static/
+│   └── uploads/
+├── templates/
+│   └── index.html
+│   └── estimate.html
+│   └── chatbot.html
+│   └── aboutpage.html
+│   └── estimatedescription.html
+│   └── estimateshowcalorie.html
+├── requirements.txt
+├── .env (not tracked)
+└── README.md
